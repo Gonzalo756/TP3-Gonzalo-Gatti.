@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Postres</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #b71c1c;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: black;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      padding-left: 30px;
+      width: 100vw;
+      position: relative;
+    }
+
+    header img {
+      height: 100px;
+      margin-right: 20px;
+    }
+
+    header h1 {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 41px;
+      color: white;
+      margin: 0;
+      white-space: nowrap;
+    }
+
+    .modulo {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 30px;
+      background-color: #a31515;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      font-size: 18px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      line-height: 1.8;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    li:last-child {
+      border-bottom: none;
+    }
+
+    .precio {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="img/barbalogo.jpg" alt="Logo" style="height: 100px; margin-right: 20px;">
+    <h1>Postres</h1>
+  </header>
+
+  <section class="modulo">
+    <h2>Delicias Dulces</h2>
+    <ul>
+      <li>Flan casero <span class="precio">$1200</span></li>
+      <li>Helado artesanal (2 bochas) <span class="precio">$1500</span></li>
+      <li>Tarta de manzana <span class="precio">$1700</span></li>
+      <li>Brownie con nuez <span class="precio">$1600</span></li>
+      <li>Cheesecake de frutilla <span class="precio">$1800</span></li>
+      <li>Panqueques con dulce de leche <span class="precio">$1400</span></li>
+      <li>Ensalada de frutas <span class="precio">$1300</span></li>
+      <li>Chocotorta <span class="precio">$1700</span></li>
+      <li>Budín de pan <span class="precio">$1200</span></li>
+      <li>Tiramisú <span class="precio">$1900</span></li>
+    </ul>
+  </section>
+<div id="footer" style="width: 100%; height: 80px; background-color:#2c0b0e; display: flex; align-items: center; justify-content: space-between; padding: 0 30px;">
+  <p style="font-family: serif; color: white; margin: 0;">Gonzalo Gatti</p>
+  
+
+  
+  <p style="font-family: serif; color: white; margin: 0;">Teléfono: 2944-151409 | Dirección: Av. 12 de Octubre 1923</p>
+</div>
+
+</body>
+</html>
